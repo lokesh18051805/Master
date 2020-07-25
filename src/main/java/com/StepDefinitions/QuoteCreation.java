@@ -10,24 +10,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import com.Helper.InitializerClass;
-import com.PageObjectRepository.AccountSummaryPage;
-import com.PageObjectRepository.CommonButtonActions;
-import com.PageObjectRepository.CoveragesPage;
-import com.PageObjectRepository.CreateAccountPage;
-import com.PageObjectRepository.EnterAccountInformationPage;
-import com.PageObjectRepository.ExposuresPage;
-import com.PageObjectRepository.LocationInformationPage;
-import com.PageObjectRepository.LocationsPage;
-import com.PageObjectRepository.ModifiersPage;
-import com.PageObjectRepository.MySummaryPage;
-import com.PageObjectRepository.NewSubmissionsPage;
-import com.PageObjectRepository.OrganizationsPage;
-import com.PageObjectRepository.PolicyInfoPage;
-import com.PageObjectRepository.PolicyReviewPage;
-import com.PageObjectRepository.QualificationPage;
-import com.PageObjectRepository.QuotePage;
-import com.PageObjectRepository.RiskAnalysisPage;
-import com.Utilities.BaseClass;
 import com.Utilities.CommonMethods;
 
 import io.cucumber.java.en.Then;
