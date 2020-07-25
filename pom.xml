@@ -26,8 +26,11 @@
 		<org.json.simple>0.4</org.json.simple>
 		<maven-compiler-plugin>3.8.1</maven-compiler-plugin>
 		<maven-surefire-plugin>3.0.0-M4</maven-surefire-plugin>
+		<maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    
 	</properties>
-
+	
 	<dependencies>
 
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
