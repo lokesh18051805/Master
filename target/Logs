@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-07-28T16:32:33</date>
+  <millis>1595968353606</millis>
+  <sequence>2</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.StepDefinitions.Hooks</class>
+  <method>beforeScenario</method>
+  <thread>1</thread>
+  <message>Test execution started: Login into GW with correct credentials</message>
+</record>
+<record>
+  <date>2020-07-28T16:32:47</date>
+  <millis>1595968367054</millis>
+  <sequence>4</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>sendKeys</method>
+  <thread>1</thread>
+  <message>Value is successfully sent: su</message>
+</record>
+<record>
+  <date>2020-07-28T16:32:47</date>
+  <millis>1595968367864</millis>
+  <sequence>5</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>sendKeys</method>
+  <thread>1</thread>
+  <message>Value is successfully sent: gw</message>
+</record>
+<record>
+  <date>2020-07-28T16:32:48</date>
+  <millis>1595968368828</millis>
+  <sequence>6</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>click</method>
+  <thread>1</thread>
+  <message>WebDriver clicked on the element</message>
+</record>
+<record>
+  <date>2020-07-28T16:32:50</date>
+  <millis>1595968370057</millis>
+  <sequence>7</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>click</method>
+  <thread>1</thread>
+  <message>WebDriver clicked on the element</message>
+</record>
+<record>
+  <date>2020-07-28T16:32:50</date>
+  <millis>1595968370829</millis>
+  <sequence>8</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>click</method>
+  <thread>1</thread>
+  <message>WebDriver clicked on the element</message>
+</record>
+<record>
+  <date>2020-07-28T16:32:51</date>
+  <millis>1595968371795</millis>
+  <sequence>9</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>sendKeys</method>
+  <thread>1</thread>
+  <message>Value is successfully sent: Company32ForTest</message>
+</record>
+<record>
+  <date>2020-07-28T16:32:51</date>
+  <millis>1595968371855</millis>
+  <sequence>10</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>selectByTextFromList</method>
+  <thread>1</thread>
+  <message>Value is found in the list...</message>
+</record>
+<record>
+  <date>2020-07-28T16:32:52</date>
+  <millis>1595968372100</millis>
+  <sequence>11</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>selectByTextFromList</method>
+  <thread>1</thread>
+  <message>Value is selected: [[ChromeDriver: chrome on WINDOWS (ebb7e20d9408744006d49d681066b029)] -&gt; xpath: //div[contains(@id,'InputSet-Country') and @data-gw-getset='select']]</message>
+</record>
+<record>
+  <date>2020-07-28T16:32:52</date>
+  <millis>1595968372850</millis>
+  <sequence>12</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>sendKeys</method>
+  <thread>1</thread>
+  <message>Value is successfully sent: 43235</message>
+</record>
+<record>
+  <date>2020-07-28T16:32:53</date>
+  <millis>1595968373549</millis>
+  <sequence>13</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>click</method>
+  <thread>1</thread>
+  <message>WebDriver clicked on the element</message>
+</record>
+<record>
+  <date>2020-07-28T16:32:54</date>
+  <millis>1595968374261</millis>
+  <sequence>14</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>click</method>
+  <thread>1</thread>
+  <message>WebDriver clicked on the element</message>
+</record>
+<record>
+  <date>2020-07-28T16:32:59</date>
+  <millis>1595968379903</millis>
+  <sequence>15</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>click</method>
+  <thread>1</thread>
+  <message>WebDriver clicked on the element</message>
+</record>
+<record>
+  <date>2020-07-28T16:33:00</date>
+  <millis>1595968380718</millis>
+  <sequence>16</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>click</method>
+  <thread>1</thread>
+  <message>WebDriver clicked on the element</message>
+</record>
+<record>
+  <date>2020-07-28T16:33:00</date>
+  <millis>1595968380984</millis>
+  <sequence>17</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.StepDefinitions.Hooks</class>
+  <method>afterScenario</method>
+  <thread>1</thread>
+  <message>Test execution completed: Login into GW with correct credentials</message>
+</record>
+<record>
+  <date>2020-07-28T16:33:00</date>
+  <millis>1595968380987</millis>
+  <sequence>18</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.StepDefinitions.Hooks</class>
+  <method>afterScenario</method>
+  <thread>1</thread>
+  <message>Test execution failed. Taking screenshot...</message>
+</record>
+<record>
+  <date>2020-07-28T16:33:01</date>
+  <millis>1595968381531</millis>
+  <sequence>19</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.CommonMethods</class>
+  <method>takesScreenShot</method>
+  <thread>1</thread>
+  <message>Last page's screenshot has been taken</message>
+</record>
+<record>
+  <date>2020-07-28T16:33:02</date>
+  <millis>1595968382956</millis>
+  <sequence>20</sequence>
+  <logger>com.Utilities.BaseClass</logger>
+  <level>INFO</level>
+  <class>com.Utilities.BaseClass</class>
+  <method>close</method>
+  <thread>1</thread>
+  <message>WebDriver closed</message>
+</record>
+</log>

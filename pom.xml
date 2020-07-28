@@ -27,11 +27,13 @@
 		<maven-compiler-plugin>3.8.1</maven-compiler-plugin>
 		<maven-surefire-plugin>3.0.0-M4</maven-surefire-plugin>
 		<maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-    
+		<maven.compiler.target>1.8</maven.compiler.target>
+
 	</properties>
-	
+
 	<dependencies>
+
+
 
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
 		<dependency>
@@ -169,21 +171,48 @@
 			<artifactId>org.json.simple</artifactId>
 			<version>${org.json.simple}</version>
 		</dependency>
-		
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+
+		<!-- https://mvnrepository.com/artifact/org.openqa.selenium.webdriver/webdriver-common -->
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium.client-drivers/selenium-java-client-driver -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium.client-drivers</groupId>
+			<artifactId>selenium-java-client-driver</artifactId>
+			<version>1.0.2</version>
+			<scope>test</scope>
+		</dependency>
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.webdriver/webdriver-htmlunit -->
+	<dependency>
+		<groupId>org.seleniumhq.webdriver</groupId>
+		<artifactId>webdriver-htmlunit</artifactId>
+		<version>0.9.7376</version>
+		<scope>test</scope>
+	</dependency>
 
 
-
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support -->
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-support</artifactId>
+		<version>4.0.0-alpha-3</version>
+	</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>${maven-compiler-plugin}</version> <!-- Current Version -->
+				<version>${maven-compiler-plugin}</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<fork>true</fork>
+					<executable>C:\Program Files\Java\jdk1.8.0_202\bin\javac.exe</executable>
+				</configuration>
+				<!-- Current Version -->
 			</plugin>
-			
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId> <!-- For Cucumber Basic Report -->
