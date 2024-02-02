@@ -1,0 +1,18 @@
+GWPC Account creation test data variation
+1) Can you write multiple ccombination to test Account creation in GW Policy center
+
+GWPC Test case creation ( PC NB)
+1) Can you write test cases for Account creation in GW Policy center
+2) Can you write test cases for Login in GW Policy center
+3) Can you write test cases for Quoting in GW Policy center
+4) Can you write test cases for policy submission with premium  validation in GW Policy center for Personal Auto LOB
+5) can you write test cases covering 3 vehcile & 4 driver combination for Personal Auto LOB in GWPC
+
+
+GWPC Data set
+1) Can you create a dataset for 10 Vehcile & 10 driver combination for personal auto LOB in GWPC
+2) Can you create a dataset for 10 Vehcile & 10 driver combination for Commercial auto LOB in GWPC
+
+GWPC forms
+1) can you give me list of forms in GWPC for Personal Auto LOB
+2) can you give me the inferences conditions for triggering policy declaration form in GWPC for Personal Auto LOB

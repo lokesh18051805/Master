@@ -1,0 +1,22 @@
+Requirement number :
+
+Requirement/User stroy number:
+
+Testable Requirement:
+
+"if the RoleType is User and Application is GWPC and LOB is GLA and State is KY and Effective Date is Current Date and LineSection is MonoLine and Piror Insurance is seleted as No and OrganizationType is selected as Joint Venture and if Additional Named Insureds is 2 ElectableCoverage "Kentucky Changes - Notice of Cancellation and Nonrenewal for Radon Measurement" and "Mitigation Contractors Endorsement7" should be displayed and Forms "CG 99 09","CG 28 12
+CG 26 71" to be Generated"
+
+
+TestCase:
+
+LoginURL:
+
+Step:1  Enter the URL:https://Policycenter.com
+Step:2	Enter the USername:"su"
+Step:3 	Enter the Password:"gw"
+
+
+Account Creation:
+
+Step:1 Create a GWPC Account.

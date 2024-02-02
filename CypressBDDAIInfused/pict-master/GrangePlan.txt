@@ -1,0 +1,37 @@
+# --------------------------------
+# testcasevaraiationsplan#
+# --------------------------------
+LOB: CA
+States: WI, IA, MN, VA
+Term: Annual, 6months
+EffectiveDate: CurrentDate, FutureDate, Backdate
+Terrorism: Yes, No
+Drivers: 1,40,20,90,100,80,99,50
+vehicles: 1,40,20,90,100,70,10,99,50,NAPayment plans: Installment 6 months,12 months installment,100% Down pay,15% down pay 10 installments,100% Down pay,100% Down pay, Installment 6 months,12 months installment,100% Down pay,15% down pay 11 installments
+StateRules: 13/11/2023 for MN,11/12/2023 for WI
+Services: VINServices, MVR (Violations), Points service call, Claims, PC BC integ, Address Validation Service, Rating Call( SRE), Credit order
+Modifiers: Multi-Vehicle, Multi-Vehicle Multi-Policy, Multi-Vehicle Full payment discount
+Coverage:3 Coverage (Default),3 Coverage + vehicle level coverage,3 Coverage + State specific Coverage,3 Coverage + Other Coverage
+
+
+# ------------------
+# Rules
+# ------------------
+IF [States] in {"WI", "IA", "MN", "VA"} THEN [EffectiveDate] in {"CurrentDate", "FutureDate", "Backdate"};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

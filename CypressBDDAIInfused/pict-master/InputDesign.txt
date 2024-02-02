@@ -1,0 +1,12 @@
+Input Scenarios Data        LOB           States
+Seprator      :             :
+Condition      CA            WI, IA, MN, VA
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            

@@ -1,0 +1,50 @@
+Requirement :PC102938
+
+Summary:
+give In Guidewire Policycenter, for Commerical Auto LOB, 
+When policy type is "BP" and coverage is "Business Auto coverage", 
+When Liability limit is selected  as "Form E"  
+And  when Liability limit is greater than 100000$ 
+then Form number CS90251, CO89453 should be generated sucessfully.
+
+
+Test scenarios for the above requirement:
+
+1) Verify that when policy type is "BP" and coverage is "Business Auto coverage",
+    Liability limit is selected  as "Form E" and Liability limit is greater than 100000$ 
+    then Form number CS90251, CO89453 should be generated sucessfully.
+
+2) Verify that when policy type is "BP" and coverage is "Business Auto coverage",
+    Liability limit is selected  as "Form E" and Liability limit is less than 100000$ 
+    then Form number CS90251, CO89453 should not be generated sucessfully.
+
+3) Verify that when policy type is "BP" and coverage is  "Business Auto coverage",
+    Liability limit is selected  as "Form F" and Liability limit is greater than 100000$ 
+    then Form number CS90251, CO89453 should not be generated sucessfully.
+
+
+4) Verify that when policy type is "BP" and coverage is not "Business Auto coverage",
+    Liability limit is selected  as "Form E" and Liability limit is greater than 100000$ 
+    then Form number CS90251, CO89453 should not be generated sucessfully.
+
+5) Verify that when policy type is "BP" and coverage is not "Business Auto coverage",
+    Liability limit is selected  as "Form F" and Liability limit is greater than 100000$ 
+    then Form number CS90251, CO89453 should not be generated sucessfully.
+
+6) Verify that when policy type is "BP" and coverage is "Business Auto coverage",
+    Liability limit is selected  as "Form E" and Liability limit is less than 100000$ 
+    then Form number CS90251, CO89453 should not be generated sucessfully.
+
+7) Verify that when policy type is "BP" and coverage is "Business Auto coverage",
+    Liability limit is selected  as "Form F" and Liability limit is less than 100000$ 
+    then Form number CS90251, CO89453 should not be generated sucessfully.
+
+    
+
+
+
+
+
+
+
+

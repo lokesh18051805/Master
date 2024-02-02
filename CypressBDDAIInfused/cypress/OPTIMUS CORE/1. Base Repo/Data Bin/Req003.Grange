@@ -1,0 +1,7 @@
+Requirement Number:PC356478
+
+Summary:
+given in Agent portal application,
+for"commercial Auto" Line of buiness, 
+When the user selects "package policy" as "product type",
+then user should be able to see  "commercial Property", "inland Marine","general liability", "Crime" options in the screen.

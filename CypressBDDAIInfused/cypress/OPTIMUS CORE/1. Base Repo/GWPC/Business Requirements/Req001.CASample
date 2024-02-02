@@ -1,0 +1,7 @@
+Requirement :PC102938
+
+Summary:
+In Guidewire Policycenter Commerical Auto LOB for all states When policy type is "BP" and coverage is "Business Auto coverage" and when Liability limit is selected under "Form E" and Liability value is selected more than 100000$ then Form number CS90251, CO89453 should be generated sucessfuly.
+
+
+

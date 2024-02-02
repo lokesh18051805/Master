@@ -1,0 +1,116 @@
+
+Test Scenario:
+
+positive Sccenrio 1:
+
+When user selects "package policy" as "product type",
+Then user should be able to see  "commercial Auto", "General Liability","Business owner" options in the screen.
+
+positive Sccenrio 2:
+
+When user selects "commercial Auto" as "product type",
+Then user should be able to see  "commercial Auto" option in the screen.
+
+positive Sccenrio 3:
+    
+    When user selects "General Liability" as "product type",
+    Then user should be able to see  "General Liability" option in the screen.
+
+positive Sccenrio 4:
+
+    When user selects "Business owner" as "product type",
+    Then user should be able to see  "Business owner" option in the screen.
+
+
+Test case 1: positive Sccenrio 1:
+
+Step:1 Enter the URL:https://Policycenter.com
+Step:2 Enter the valid username and password
+Step:3 Click on the login button
+Step:4 Create a new account.
+Step:5 Intiate a new submission.
+Step:6 select "Package policy" as "product type"
+Step7: user should be able to see  "commercial Auto", "General Liability","Business owner" options in the screen.
+
+Test case 2: positive Sccenrio 2:
+
+Step:1 Enter the URL:https://Policycenter.com
+Step:2 Enter the valid username and password
+Step:3 Click on the login button
+Step:4 Create a new account.
+Step:5 Intiate a new submission.
+Step:6 select "commercial Auto" as "product type"
+Step7: user should be able to see  "commercial Auto" option in the screen.
+
+Cypress base code for Test case 1 :
+
+describe('Test case 1: positive Sccenrio 1:', function () {
+    
+        it('Step:1 Enter the URL:https://Policycenter.com', function () {
+            cy.visit('https://Policycenter.com');
+        })
+    
+        it('Step:2 Enter the valid username and password', function () {
+            cy.get('#username-inputEl').type('username');
+            cy.get('#password-inputEl').type('password');
+        })
+    
+        it('Step:3 Click on the login button', function () {
+            cy.get('#login-button').click();
+        })
+    
+        it('Step:4 Create a new account.', function () {
+            cy.get('#create-new-account').click();
+        })
+    
+        it('Step:5 Intiate a new submission.', function () {
+            cy.get('#new-submission').click();
+        })
+    
+        it('Step:6 select "Package policy" as "product type"', function () {
+            cy.get('#product-type').select('Package policy');
+        })
+    
+        it('Step7: user should be able to see  "commercial Auto", "General Liability","Business owner" options in the screen.', function () {
+            cy.get('#product').select('commercial Auto');
+            cy.get('#product').select('General Liability');
+            cy.get('#product').select('Business owner');
+        })
+    })
+
+Cypress base code for Test case 2 :
+
+describe('Test case 2: positive Sccenrio 2:', function () {
+
+    it('Step:1 Enter the URL:https://Policycenter.com', function () {
+        cy.visit('https://Policycenter.com');
+    })
+
+    it('Step:2 Enter the valid username and password', function () {
+        cy.get('#username-inputEl').type('username');
+        cy.get('#password-inputEl').type('password');
+    })
+
+    it('Step:3 Click on the login button', function () {
+        cy.get('#login-button').click();
+    })
+
+    it('Step:4 Create a new account.', function () {
+        cy.get('#create-new-account').click();
+    })
+
+    it('Step:5 Intiate a new submission.', function () {
+        cy.get('#new-submission').click();
+    })
+
+    it('Step:6 select "commercial Auto" as "product type"', function () {
+        cy.get('#product-type').select('commercial Auto');
+    })
+
+    it('Step7: user should be able to see  "commercial Auto" option in the screen.', function () {
+        cy.get('#product').select('commercial Auto');
+    })
+}
+
+
+

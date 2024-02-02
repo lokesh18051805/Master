@@ -1,0 +1,48 @@
+Requirement :PC102938
+
+Summary:
+give In Guidewire Policycenter, for Commerical Auto LOB, 
+When policy type is "BP" and coverage is "Business Auto coverage", 
+When Liability  is selected  as "Form E"  
+And  when Liability limit is greater than 100000$ 
+then Form number CS90251, CO89453 should be generated sucessfully.
+
+
+*/ can write a BDD feature file for the above Requirement
+
+Feature: Form E
+
+    Scenario: Form E
+        Given I am on the PolicyCenter login page
+        When I login as a user with username "su" and password "gw"
+        And I create a new policy
+        And I select "Business Auto" as the policy type
+        And I select "BP" as the policy subtype
+        And I select "Business Auto Coverage" as the coverage
+        And I select "Form E" as the liability
+        And I enter "100000" as the liability limit
+        And I click on the "Forms" button
+        Then the form "CS90251" should be generated
+        And the form "CO89453" should be generated
+        And I logout of PolicyCenter
+
+Negative Scenario: Form E
+
+    Scenario: Form E
+
+        Given I am on the PolicyCenter login page
+        When I login as a user with username "su" and password "gw"
+        And I create a new policy
+        And I select "Business Auto" as the policy type
+        And I select "BP" as the policy subtype
+        And I select "Business Auto Coverage" as the coverage
+        And I select "Form E" as the liability
+        And I enter less than "100000" as the liability limit
+        And I click on the "Forms" button
+        Then the form "CS90251" should not be generated 
+        And the form "CO89453" should not be generated
+        And I logout of PolicyCenter
+ 
+        
+
+

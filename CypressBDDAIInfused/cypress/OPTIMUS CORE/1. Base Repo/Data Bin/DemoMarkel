@@ -1,0 +1,8 @@
+Given When valid user login into Billing center with Billing manager Permission
+Then User search Policy summary screen with policy number
+And User select the policy
+And user click on new Payment   
+ANd the user select the payment method as Cash
+And user enter the amount
+Then validate if the amount entered is lesser than 100$ and the user should get the warning message and Activity is triggered to the Manager 
+And the manager approve the activity
